@@ -8,6 +8,12 @@ First clone the repository:
 
 Then add a .wav file to the same directory or use the sample.wav provided.
 
-Finally run `make` which will run the code and output to the console.
+Lastly compile and run the code using:
 
-You can specify the number of raw bytes you want to see by modifying the `NUMRAWBYTES` variable.
+`make`
+
+`./parse sample.wav`
+
+You can change sample.wav to whatever .wav file you add to the directory.
+
+Additionally can specify the number of raw bytes you want to see by modifying the `NUMRAWBYTES` variable.
